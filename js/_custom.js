@@ -109,6 +109,10 @@ function slide(wrapper, items) {
     
     allowShift = true;
   }
+
+  setInterval(function(){
+    shiftSlide(1);
+  }, 4000);
 }
 
 slide(slider, sliderItems);
